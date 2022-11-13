@@ -1,15 +1,31 @@
-# Starter vitejs html_base
+# Starter Vite Test Lenis smooth scroll
 
 For fast init static projects or Test Dev :
 
 Support HMR, SCSS, GSAP and Lenis.
 Work Well with Node V19.0.1
 
-Be Carefull for your production Works : 
-🚧 Still in WIP, API might change with new releases 🚧
+Be Carefull for deploy on production : 
+[🚧 Still in WIP, API might change with new releases 🚧](https://github.com/studio-freight/lenis)
 
-Big thanks @studio-freight !
+Big big thanks [@studio-freight](https://github.com/studio-freight)!
+
 Check [Studio Freight](https://studiofreight.com/) !
+
+## Why Lenis ?
+| Feature                     | [Locomotive-scroll](https://github.com/locomotivemtl/locomotive-scroll) | [GSAP ScrollSmoother](https://greensock.com/scrollsmoother/)                                  | [Lenis](https://github.com/studio-freight/lenis)            |
+| --------------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| Native scrollbar            | ❌                                                                      | ✅                                                                                            | ✅                                                          |
+| Native scroll inputs        | ❌                                                                      | ✅                                                                                            | ❌                                                          |
+| Normalize scroll experience | ✅                                                                      | ❌                                                                                            | ✅                                                          |
+| Accessibility               | ❌                                                                      | ❌                                                                                            | ✅                                                          |
+| CSS Sticky                  | ❌                                                                      | ❌                                                                                            | ✅                                                          |
+| IntsersectionObserver       | ❌                                                                      | ❌                                                                                            | ✅                                                          |
+| Open source                 | ✅                                                                      | ❌                                                                                            | ✅                                                          |
+| Built-in animation system   | ✅                                                                      | ✅                                                                                            | ❌                                                          |
+| Size (gzip)                 | [12.33KB](https://bundlejs.com/?q=locomotive-scroll)                    | [26.08KB](https://bundlejs.com/?q=gsap%2FScrollSmoother&treeshake=%5B%7BScrollSmoother%7D%5D) | [2.13kb](https://bundlejs.com/?q=%40studio-freight%2Flenis) |
+
+<br>
 
 ## Installation
 
@@ -49,6 +65,6 @@ Enjoy 👋
 
 ## License
 
-MIT
+[The MIT License.](https://opensource.org/licenses/MIT)
 
 Copyright©️ Pierre Guillemot.
