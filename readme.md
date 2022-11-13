@@ -2,9 +2,14 @@
 
 For fast init static projects or Test Dev :
 
-Support HMR, SCSS, GSAP.
+Support HMR, SCSS, GSAP and Lenis.
 Work Well with Node V19.0.1
 
+Be Carefull for your production Works : 
+🚧 Still in WIP, API might change with new releases 🚧
+
+Big thanks @studio-freight !
+Check [Studio Freight](https://studiofreight.com/) !
 
 ## Installation
 
