@@ -1,0 +1,78 @@
+/*
+* ----------
+* Your style here
+* ----------
+*/
+html {
+    scroll-behavior: initial;
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.2;
+}
+
+::selection {
+    background-color:#000;
+    color:#fff;
+}
+
+.wrapper-anim {
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.section-title {
+    margin-bottom: 30px;
+}
+
+.section-text {
+    max-width: 600px;
+
+    .text {
+        opacity: 0;
+    }
+}
+
+.title {
+    font-size: 50px;
+    font-weight: bold;
+    transform: translateY(100%);
+}
+
+.link {
+    -webkit-text-decoration: underline 1px transparent;
+    text-decoration: underline 1px transparent;
+    text-decoration-thickness: 1px;
+    transition: -webkit-text-decoration-color .3s;
+    transition: text-decoration-color .3s;
+    transition: text-decoration-color .3s, -webkit-text-decoration-color .3s;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    display: inline-block;
+    margin-bottom: 10px;
+    transform: translateX(-100%);
+
+    b {
+        font-weight: bold;
+    }
+}
+
+.link:hover {
+    -webkit-text-decoration-color: #070707;
+    text-decoration-color: #070707;
+    // -webkit-text-decoration-color: var(--font-color);
+    // text-decoration-color: var(--font-color);
+}
