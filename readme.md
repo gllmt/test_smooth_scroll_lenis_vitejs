@@ -3,7 +3,7 @@
 For fast init static projects or Test Dev :
 
 Support HMR, SCSS, GSAP and Lenis.
-Work Well with Node V19.0.1
+Work Well with Node V19.0.1 (.nvmrc)
 
 Be Carefull for deploy on production : 
 [🚧 Still in WIP, API might change with new releases 🚧](https://github.com/studio-freight/lenis)
