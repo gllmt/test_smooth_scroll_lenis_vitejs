@@ -53,6 +53,15 @@ body {
     transform: translateY(100%);
 }
 
+
+.title-scroll {
+    font-size: 100px;
+    font-weight: bold;
+    transform: translateY(100%);
+    visibility: hidden;
+    opacity: 0;
+}
+
 .link {
     -webkit-text-decoration: underline 1px transparent;
     text-decoration: underline 1px transparent;
