@@ -12,6 +12,7 @@ import './assets/sass/app.scss'
 */
 import Lenis from '@studio-freight/lenis'
 import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
 /*
 * --------------------
 * Your javascript here
@@ -56,3 +57,39 @@ TLINTRO
     .to('.link', { x: 0, duration: 0.3, delay: .5},'-=0.4')
     .to('.text', { autoAlpha: 1, duration: 0.5, delay: .5}, '-=0.3')
 // ---
+
+// gsap ScrollTrigger 
+// console.log(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger)
+
+// const TLScroll = gsap.timeline({scrollTrigger:{
+//   trigger:".section-image",
+//   yPercent: -50,
+//   scrub: true,
+//   pin: false,
+//   start:"top center",
+//   end:"+=100%",
+//   markers:true
+// }});
+
+
+// parallax image test
+gsap.to('.img', {
+  yPercent: -10,
+  ease: 'none',
+  scrollTrigger: {
+    trigger:'.section-image',
+    start:'top bottom',
+    end:'bottom top',
+    scrub: 0.3,
+    // markers:true
+  }
+})
+// -----
+// for smooth anchors with Lenis
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    lenis.scrollTo(this.getAttribute('href'))
+  });
+})
