@@ -62,16 +62,6 @@ TLINTRO
 // console.log(ScrollTrigger);
 gsap.registerPlugin(ScrollTrigger)
 
-// const TLScroll = gsap.timeline({scrollTrigger:{
-//   trigger:".section-image",
-//   yPercent: -50,
-//   scrub: true,
-//   pin: false,
-//   start:"top center",
-//   end:"+=100%",
-//   markers:true
-// }});
-
 
 // parallax image test
 gsap.to('.img', {
