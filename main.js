@@ -85,6 +85,22 @@ gsap.to('.img', {
     // markers:true
   }
 })
+
+// overlay title scroll
+gsap.to('h3.title-scroll', {
+  // duration: 0.3,
+  y: 0,
+  autoAlpha: 1,
+  ease: 'sine',
+  scrollTrigger: {
+    trigger:'h3.title-scroll',
+    // markers: true,
+    start:'top center+=50%',
+    // scrub: 0.3
+  }
+})
+
+
 // -----
 // for smooth anchors with Lenis
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
