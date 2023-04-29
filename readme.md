@@ -3,7 +3,10 @@
 For fast init static projects or Test Dev :
 
 Support HMR, SCSS, GSAP and Lenis.
-Work Well with Node V19.0.1 (.nvmrc)
+Work Well with Node v18.16.0 (.nvmrc)
+
+See site live here : [https://gllmt-lenis-gsap.netlify.app/](https://gllmt-lenis-gsap.netlify.app/)
+
 
 Be Carefull for deploy on production : 
 [🚧 Still in WIP, API might change with new releases 🚧](https://github.com/studio-freight/lenis)
