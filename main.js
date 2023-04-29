@@ -82,6 +82,7 @@ requestAnimationFrame(raf)
 // console.log(ScrollTrigger);
 gsap.registerPlugin(ScrollTrigger)
 
+
 // Add lenis to scrollTrigger
 lenis.on('scroll', ScrollTrigger.update)
 
